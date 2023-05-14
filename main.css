@@ -17,7 +17,14 @@
     background-color:var(--dark-bright);
     width:100%;
 }
+
 .attachment-1PZZB2:hover, .theme-dark .wrapperAudio-1Bzv_Z:hover{
     background-color:var(--dark-secondary);
     transition: 250ms;
+}
+
+.imageWrapper-oMkQl4:hover{
+    transform: scale(1);
+    box-shadow: var(--applethingsbshadow);
+    z-index: 3;
 }
