@@ -1,1 +1,10 @@
 @import url("https://raw.githubusercontent.com/tiredmala/Roundmoled/main/BetterDiscord/roundmoled.theme.css");
+
+/* remove bold urls on hover */
+.markup-eYLPri a:hover{
+  font-weight: normal;
+}
+
+.filenameLinkWrapper-3Rc6sk:hover{
+    font-weight: normal;
+}
