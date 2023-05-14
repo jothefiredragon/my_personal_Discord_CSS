@@ -1,3 +1,4 @@
+/* based on https://github.com/tiredmala/Roundmoled */
 @import url("https://raw.githubusercontent.com/tiredmala/Roundmoled/main/BetterDiscord/roundmoled.theme.css");
 
 /* remove bold urls on hover */
@@ -10,7 +11,6 @@
 }
 
 /* remove image/video zoom on hover */
-
 .imageWrapper-oMkQl4:hover{
     transform: scale(1);
     box-shadow: var(--applethingsbshadow);
