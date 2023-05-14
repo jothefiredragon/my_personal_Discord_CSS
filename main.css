@@ -9,19 +9,7 @@
     font-weight: normal;
 }
 
-
-/* Attachments in chat */
-
-.attachment-1PZZB2, .theme-dark .wrapperAudio-1Bzv_Z{
-    border-radius: 15px;
-    background-color:var(--dark-bright);
-    width:100%;
-}
-
-.attachment-1PZZB2:hover, .theme-dark .wrapperAudio-1Bzv_Z:hover{
-    background-color:var(--dark-secondary);
-    transition: 250ms;
-}
+/* remove image/video zoom on hover */
 
 .imageWrapper-oMkQl4:hover{
     transform: scale(1);
