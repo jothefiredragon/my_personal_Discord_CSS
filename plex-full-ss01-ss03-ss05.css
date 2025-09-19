@@ -1,13 +1,46 @@
-/*
-Based on: https://1.www.s81c.com/common/carbon/plex/plex-full.css
+/*  
+IBM Plex fonts
+official website: https://www.ibm.com/plex/
+
+    Below is a makeshift table to show which characters
+    got changed by each “Stylistic Set” opentype features
+    for each of the three IBM Plex typefaces (Sans & Serif & Mono)
+    
+æ   represents double-storey lowercase a
+9   represents single-storey lowercase a (usually looks like ɑ)
+    https://en.wikipedia.org/wiki/A#/media/File:LowercaseA.svg
+8   represents double-storey lowercase g
+q   represents single-storey lowercase g
+    https://en.wikipedia.org/wiki/G#/media/File:LowercaseG.svg
+O/  represents slashed zero (number zero with a slash in the middle)
+O·  represents dotted zero (number zero with a dot in the middle)
+O   represents plain or open zero (number zero with nothing in the middle)
+    https://en.wikipedia.org/wiki/Slashed_zero#/media/File:SlashedZeros.svg
+B   represents Eszett (ß) which more closely resembles the uppercase b
+ſʒ  represents Eszett (ß) which more closely resembles the ligature of ſ (long s) and ʒ (tailed z) in blackletter typefaces
+    https://en.wikipedia.org/wiki/%C3%9F#/media/File:Latin_letter_eszett.svg
+| “Stylistic Set” features | ss01  | ss02  | ss03  | ss04  | ss05  |
+| IBM Plex Sans (Normal)   | æ →9  | 8 →q  | O →O/ | O →O· | B →ſʒ |
+| IBM Plex Sans (Italic)   | 9 →æ  | 8 →q  | O →O/ | O →O· | B →ſʒ |
+| IBM Plex Serif (Normal)  | æ →9  | 8 →q  | O →O/ | O →O· | B →ſʒ |
+| IBM Plex Serif (Italic)  | 9 →æ  | 8 →q  | O →O/ | O →O· | B →ſʒ |
+| IBM Plex Mono (Normal)   | æ →9  | 8 →q  | O·→O/ | O·→O  | ſʒ→B  |
+| IBM Plex Mono (Italic)   | 9 →æ  | q →8  | O·→O/ | O·→O  | ſʒ→B  |  
+'https://1.www.s81c.com/common/carbon/plex/sans.css'
+'https://1.www.s81c.com/common/carbon/plex/serif.css'
+'https://1.www.s81c.com/common/carbon/plex/mono.css'
+
+Update [2025-09-19 12:00:44 (UTC+7)] 
+Based on: 'https://1.www.s81c.com/common/carbon/plex/plex-full.css'
 I have set custom font-feature-settings for both:
-- proportional fonts 
+- proportional fonts
     - normal is “ font-feature-settings: 'ss03'; ” 
     - italic is “ font-feature-settings: 'ss01', 'ss03'; ”
-- monospace font 
+- monospace fonts
     - normal is “ font-feature-settings: 'ss03', 'ss05'; ” 
     - italic is “ font-feature-settings: 'ss01', 'ss03', 'ss05'; ”
-:)
+ 	
+Code for IBM Plex fonts ends at line 3765 :)
 */
 
 @font-face {
